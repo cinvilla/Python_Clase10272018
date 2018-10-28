@@ -1,0 +1,43 @@
+>>> dict_empty = {}
+>>> dict_empty
+{}
+>>> dict_empty['juan'] = ''
+>>> dict_empty
+{'juan': ''}
+>>> dict_empty['juan'] = '88'
+>>> dict_empty[('pedro','jose')] = '11','56'
+>>> dict_empty
+{'juan': '88', ('pedro', 'jose'): ('11', '56')}
+>>> del dict_empty['pedro', 'jose']
+>>> dict_empty
+{'juan': '88'}
+>>> dict_empty['pedro'] = '11'
+>>> dict_empty
+{'juan': '88', 'pedro': '11'}
+>>> dict_empty['jose'] = 56
+>>> dict_empty['juan'] = 88
+>>> dict_empty['pedro'] = 11
+>>> dict_empty
+{'juan': 88, 'pedro': 11, 'jose': 56}
+>>> dict_empty = dict_data
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'dict_data' is not defined
+>>> dict_data = dict_empty
+>>> dict_data
+{'juan': 88, 'pedro': 11, 'jose': 56}
+>>> del dict_empty
+>>> dict_data
+{'juan': 88, 'pedro': 11, 'jose': 56}
+>>> dict_data['pedro'] = dict_data['jose']
+>>> dict_data
+{'juan': 88, 'pedro': 56, 'jose': 56}
+>>> dict_data['pedro'] = [90,10,29]
+>>> dict_data
+{'juan': 88, 'pedro': [90, 10, 29], 'jose': 56}
+>>> dict_data['pedro']
+[90, 10, 29]
+>>> 'pedro' in dict_data
+True
+>>> 'rafael' in dict_data
+False
