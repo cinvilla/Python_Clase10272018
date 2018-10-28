@@ -1,6 +1,6 @@
 # Para crear los set se utiliza la función set() y {}
 my_set_empty = set()
-print(my_set_empty, ': creará un set empty, y el data type será', type(my_set_empty))
+print('{}: creará un set empty, y el data type será'.format(my_set_empty, type(my_set_empty)))
 
 # Si se utiliza {} para crear un set resultará en un diccionario
 print()
