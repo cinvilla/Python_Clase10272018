@@ -1,7 +1,13 @@
 # Para crear los set se utiliza la función set() y {}
-my_set_empty = set() # creará un set empty
-print(my_set_empty)
-print('', type(my_set_empty))
+my_set_empty = set()
+print(my_set_empty, ': creará un set empty, y el data type será', type(my_set_empty))
+
+# Si se utiliza {} para crear un set resultará en un diccionario
+print()
+set_empty = {}
+print('set_empty = {} esto creará un diccionario no un set:',type(set_empty))
+set_empty = set()
+print('Si utilizamos set_empty = set() esto assignará el data type set al dict:',type(set_empty))
 
 # Para crear set con contenido se usan las curly braces {}
 my_set = {1,2,3} # Puede ser de mixed data o del mismo tipo
@@ -14,4 +20,5 @@ print()
 set_no_dup = {2,3,3,2,4,'Hello',5,6,'Hello'}
 print(set_no_dup, 'Aún cuando se utilizó el comando set_no_dup = {2,3,3,2,4,Hello,5,6,Hello}',
                   'No duplicados fueron impresos o guardados dentro de la variable')
+
 
