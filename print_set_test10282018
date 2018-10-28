@@ -1,0 +1,17 @@
+# Para crear los set se utiliza la función set() y {}
+my_set_empty = set() # creará un set empty
+print(my_set_empty)
+print('', type(my_set_empty))
+
+# Para crear set con contenido se usan las curly braces {}
+my_set = {1,2,3} # Puede ser de mixed data o del mismo tipo
+print()
+print(my_set)
+print('',type(my_set))
+
+# Aún cuando inicialmente creemos un set con duplicados, él mismo nos lo reducirá a los valores únicos
+print()
+set_no_dup = {2,3,3,2,4,'Hello',5,6,'Hello'}
+print(set_no_dup, 'Aún cuando se utilizó el comando set_no_dup = {2,3,3,2,4,Hello,5,6,Hello}',
+                  'No duplicados fueron impresos o guardados dentro de la variable')
+
