@@ -58,3 +58,5 @@ SyntaxError: can't assign to function call
 {2, 3, 4, 5, 6, 'Hello'}
 >>> type(new_set)
 <class 'set'>
+
+Set Test made via Python Console
