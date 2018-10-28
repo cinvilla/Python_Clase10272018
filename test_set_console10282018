@@ -1,0 +1,60 @@
+>>> my_set_empty = set()
+>>> my_set_empty
+set()
+>>> type(my_set_empty)
+<class 'set'>
+>>> my_set_empty.add(3)
+>>> my_set_empty
+{3}
+>>> my_set_empty.update(9,4,67)
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> my_set_empty.update([9,4,67])
+>>> my_set_empty
+{9, 67, 3, 4}
+>>> my_set_empty = my set
+  File "<input>", line 1
+    my_set_empty = my set
+                        ^
+SyntaxError: invalid syntax
+>>> my set = my_set_empty
+  File "<input>", line 1
+    my set = my_set_empty
+         ^
+SyntaxError: invalid syntax
+>>> my_set = my_set_empty
+>>> my_set
+{9, 67, 3, 4}
+>>> del my_set_empty
+>>> my_set_empty
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'my_set_empty' is not defined
+>>> my_set
+{9, 67, 3, 4}
+>>> type(my_set)
+<class 'set'>
+>>> my_set
+{9, 67, 3, 4}
+>>> my_set.update([67,2,9,4])
+>>> my_set
+{2, 67, 3, 4, 9}
+>>> my_list = [2,3,3,2,4,'Hello',5,6,'Hello']
+>>> my_list
+[2, 3, 3, 2, 4, 'Hello', 5, 6, 'Hello']
+>>> my_set = my_list
+>>> my_set
+[2, 3, 3, 2, 4, 'Hello', 5, 6, 'Hello']
+>>> type(my_set)
+<class 'list'>
+>>> set(my_set) = new_set
+  File "<input>", line 1
+SyntaxError: can't assign to function call
+>>> new_set = set(my_set)
+>>> my_set
+[2, 3, 3, 2, 4, 'Hello', 5, 6, 'Hello']
+>>> new_set
+{2, 3, 4, 5, 6, 'Hello'}
+>>> type(new_set)
+<class 'set'>
