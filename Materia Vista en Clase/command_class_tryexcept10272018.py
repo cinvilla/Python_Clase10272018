@@ -13,4 +13,5 @@ finally
     print('Dentro de finally')
     pass
 
+# Commands try except showed by Teacher
 
