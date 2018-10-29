@@ -59,4 +59,4 @@ SyntaxError: can't assign to function call
 >>> type(new_set)
 <class 'set'>
 
-Set Test made via Python Console
+# Set Test made via Python Console
