@@ -22,4 +22,4 @@ set_no_dup = {2,3,3,2,4,'Hello',5,6,'Hello'}
 print(set_no_dup, 'Aún cuando se utilizó el comando **set_no_dup = {2,3,3,2,4,Hello,5,6,Hello}**',
                   'no duplicados fueron impresos o guardados dentro de la variable')
 
-# Print test to understand set
+## Print test to understand set
