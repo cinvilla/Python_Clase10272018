@@ -22,3 +22,5 @@ print("Esta es la prueba tres")
 # Paso a paso para entender el output del format y qué hace
 for posición,valor in enumerate(('Jose', 'Deybid', 'Alexander','Andres')):
     print('Hola {} esperamos tenga un hermoso dia! Su posición en la lista es {}' .format(valor,posición))
+
+# Print test to understand enumerate and format
