@@ -16,3 +16,5 @@ print(dict_data['pedro'], 'is Pedros phone number.',
 dict_data['miguel'] = 48
 print()
 print('This shows a dictionary update', dict_data)
+
+# Print test to understand dictionary
