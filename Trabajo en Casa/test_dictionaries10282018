@@ -41,3 +41,5 @@ NameError: name 'dict_data' is not defined
 True
 >>> 'rafael' in dict_data
 False
+
+# Test made via Python Console to understand dictionaries
