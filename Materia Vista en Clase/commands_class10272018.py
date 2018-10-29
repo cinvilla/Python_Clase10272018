@@ -14,3 +14,5 @@ mi_dict['pedro'] = mi_dict['juan'] # value of two different keys is pointing to 
 mi_dict # output of the dictionary will show the new value for the 'pedro' key
 del(mi_dict['pedro'])
 mi_dict
+
+# Commands of dictionary sequences showed by Teacher
