@@ -13,9 +13,8 @@ print()
 print("Esta es la prueba dos")
 # Como lo hizo el profe es mucho más fácil porque así simplemente se usa la lista misma sin tener que nombrarla antes
 # y simplemente usando la función enumerate
-print()
 for index, possition in enumerate(['Ana','Deybid','Kevin']):
-    print('Para el valor {} su índice de posición es {}'.format(possition,index))
+    print('Para el valor {} el índice de posición es {}'.format(possition,index))
 
 ########################################################################################
 print()
