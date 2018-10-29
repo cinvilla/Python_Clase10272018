@@ -32,3 +32,5 @@ for indice, elemento in enumerate(sorted(mi_lista)):
     print(f'El indice {indice} para el varlor {elemento}')
 else:
     print('El loop no empezó')
+    
+# Print test using list sequences
