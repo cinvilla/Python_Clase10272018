@@ -11,3 +11,5 @@ print('{}: creará un set empty, y el data type será'.format(my_set_empty), typ
 # Utilizando la f de format dentro de los curly braces podemos ingresar
 my_set_empty = set()
 print(f'{my_set_empty}: creará un set empty, y el data type será', type(my_set_empty))
+
+# Print test to understand format
