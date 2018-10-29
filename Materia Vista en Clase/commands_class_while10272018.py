@@ -21,3 +21,5 @@ while bandera:
 else:
     print(f'El valor del tiquete subió ${colores}')
 print(f'Por fuera: el valor es de: ${colores}')
+
+# Commands of while showed by Teacher
