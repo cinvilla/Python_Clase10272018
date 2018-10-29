@@ -19,3 +19,4 @@ elif a == b:
 else:
     # TODO
 
+# Commands of if else showed by Teacher
