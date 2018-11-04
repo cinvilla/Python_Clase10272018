@@ -8,8 +8,10 @@ E - Exit """
 
 # Definición método BIENVENIDA al programa
 def bienvenida():
-    print('¡Bienvenido al programa de operaciones simples!'
-    ' Indique qué operación matemática desea utilizar:')
+    print('*********************************************'
+          '¡Bienvenido al programa de operaciones simples!'
+    ' Indique qué operación matemática desea utilizar:'
+          '*********************************************')
     print()
 
 # Definición de los métodos para las OPERACIONES MATEMÁTICAS, devuelve el RESULTADO de la operación matemática
@@ -100,5 +102,5 @@ while inicio == 0:
 
 # OPERACIÓN SALIR DEL PROGRAMA
     if seleccion_user == 'E':
-        print('Gracias por usar nuestra calculadora, hasta pronto')
+        print('Gracias por usar nuestra calculadora, ¡Hasta pronto!')
         inicio += 1
