@@ -12,20 +12,20 @@ def bienvenida():
     ' Indique qué operación matemática desea utilizar:')
     print()
 
-# Definición de los métodos para las OPERACIONES MATEMÁTICAS, devuelve el resultado de la operación matemática
+# Definición de los métodos para las OPERACIONES MATEMÁTICAS, devuelve el RESULTADO de la operación matemática
 # en donde los valores ingresados por el usuario y serán dispuestos como parámetros dentro del método.
 
 def suma(n1,n2):
-    return f'El resultado de la suma es: {n1 + n2}'
+    return f'El RESULTADO de la suma es: {n1 + n2}'
 
 def resta(n1,n2):
-    return f'El resultado de la resta es: {n1 - n2}'
+    return f'El RESULTADO de la resta es: {n1 - n2}'
 
 def multiplicacion(n1,n2):
-    return f'El resultado de la multiplicación es: {n1 * n2}'
+    return f'El RESULTADO de la multiplicación es: {n1 * n2}'
 
 def division(n1,n2):
-    return f'El resultado de la división es: {n1 / n2}'
+    return f'El RESULTADO de la división es: {n1 / n2}'
 inicio = 0
 while inicio == 0:
     bienvenida()
