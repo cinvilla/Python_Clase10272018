@@ -1,1 +1,11 @@
 
+El archivo calculadora_simple.py contiene líneas de código para la ejecución de un pequeño programa que realiza operaciones matématicas básicas:
+
+suma
+resta
+multiplicación
+división
+
+El programa contiene un pequeño mensaje de bienvenida, un menú y por supuesto las operaciones las cuales serán a un máximo de 2 valores.
+
+También presenta la detección de valores incorrectos que se ingresen por los usuarios como por ejemplo el uso de letras en vez de números y la opción de salir del pograma con un mensaje de despedida.
